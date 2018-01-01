@@ -39,7 +39,7 @@ class XMLParser: NSObject, NSXMLParserDelegate {
     
     func parser(parser: NSXMLParser, foundCharacters string: String) {
         
-        if (currentElement == "title" && currentElement != "Hella Slaps") || currentElement == "link" || currentElement == "pubDate"{
+        if (currentElement == "title" && currentElement != "Hella Slaps") || currentElement == "link" || currentElement == "pubDate" || currentElement == "category" || currentElement == "dc:creator" {
             foundCharacters += string
         }
     }

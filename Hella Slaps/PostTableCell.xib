@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Oswald-Regular.ttf">
+            <string>Oswald-Regular</string>
+            <string>Oswald-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="101" id="TjY-Gp-Wtv" customClass="PostTableCellViewController" customModule="Hella_Slaps" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="421" height="101"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="TjY-Gp-Wtv" id="eXX-fn-rBP">
+                <rect key="frame" x="0.0" y="0.0" width="421" height="100.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Gl-cF-77y">
+                        <rect key="frame" x="101" y="8" width="313" height="24"/>
+                        <fontDescription key="fontDescription" name="Oswald-Regular" family="Oswald Regular" pointSize="20"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8HN-al-9xB">
+                        <rect key="frame" x="8" y="8" width="85" height="85"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="8HN-al-9xB" secondAttribute="height" multiplier="100:100" id="u6Z-JZ-NXe"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Ps-Dq-qKJ">
+                        <rect key="frame" x="101" y="31" width="313" height="21"/>
+                        <fontDescription key="fontDescription" name="Oswald-Regular" family="Oswald Regular" pointSize="15"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="6Ps-Dq-qKJ" secondAttribute="bottom" constant="40.5" id="3lc-kG-UdR"/>
+                    <constraint firstItem="5Gl-cF-77y" firstAttribute="leading" secondItem="6Ps-Dq-qKJ" secondAttribute="leading" id="7AC-Hl-Khp"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="6Ps-Dq-qKJ" secondAttribute="trailing" constant="-1" id="EZe-Jg-d2r"/>
+                    <constraint firstItem="8HN-al-9xB" firstAttribute="bottom" secondItem="eXX-fn-rBP" secondAttribute="bottomMargin" id="PkY-Qm-OUw"/>
+                    <constraint firstItem="5Gl-cF-77y" firstAttribute="trailing" secondItem="6Ps-Dq-qKJ" secondAttribute="trailing" id="Rhl-5s-6hk"/>
+                    <constraint firstItem="8HN-al-9xB" firstAttribute="top" secondItem="eXX-fn-rBP" secondAttribute="topMargin" id="TCz-Yp-K8V"/>
+                    <constraint firstItem="6Ps-Dq-qKJ" firstAttribute="leading" secondItem="8HN-al-9xB" secondAttribute="trailing" constant="8" symbolic="YES" id="Zzd-qS-Uaf"/>
+                    <constraint firstItem="5Gl-cF-77y" firstAttribute="top" secondItem="8HN-al-9xB" secondAttribute="top" id="aSI-15-8UQ"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="5Gl-cF-77y" secondAttribute="bottom" constant="60.5" id="oxp-G4-mVa"/>
+                    <constraint firstItem="6Ps-Dq-qKJ" firstAttribute="top" secondItem="eXX-fn-rBP" secondAttribute="topMargin" constant="23" id="yfB-Do-b6G"/>
+                    <constraint firstItem="8HN-al-9xB" firstAttribute="leading" secondItem="eXX-fn-rBP" secondAttribute="leadingMargin" id="yhi-vh-rtN"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="AlbumArt" destination="8HN-al-9xB" id="GJ0-cn-VLQ"/>
+                <outlet property="PostInfo" destination="6Ps-Dq-qKJ" id="csN-2I-GkS"/>
+                <outlet property="PostTitle" destination="5Gl-cF-77y" id="rsH-P0-Gkt"/>
+            </connections>
+            <point key="canvasLocation" x="236.5" y="178.5"/>
+        </tableViewCell>
+    </objects>
+</document>

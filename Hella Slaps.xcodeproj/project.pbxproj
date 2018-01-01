@@ -15,6 +15,11 @@
 		E52FB19E1C90A94A00066D71 /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52FB19D1C90A94A00066D71 /* FeedTableViewController.swift */; };
 		E52FB1A01C90AB2000066D71 /* XMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52FB19F1C90AB2000066D71 /* XMLParser.swift */; };
 		E52FB1A21C90B6AB00066D71 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52FB1A11C90B6AB00066D71 /* PostViewController.swift */; };
+		E52FB1A41C973E1E00066D71 /* HellaSlaps Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E52FB1A31C973E1E00066D71 /* HellaSlaps Icon.png */; };
+		E52FB1A61C9741C700066D71 /* PostTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E52FB1A51C9741C700066D71 /* PostTableCell.xib */; };
+		E52FB1A81C97433E00066D71 /* PostTableCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52FB1A71C97433E00066D71 /* PostTableCellViewController.swift */; };
+		E52FB1AB1C974D5C00066D71 /* Oswald-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E52FB1A91C974CC200066D71 /* Oswald-Regular.ttf */; };
+		E52FB1AC1C974D5C00066D71 /* ArcaMajora-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E52FB1AA1C974CDE00066D71 /* ArcaMajora-Heavy.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,11 @@
 		E52FB19D1C90A94A00066D71 /* FeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
 		E52FB19F1C90AB2000066D71 /* XMLParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLParser.swift; sourceTree = "<group>"; };
 		E52FB1A11C90B6AB00066D71 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		E52FB1A31C973E1E00066D71 /* HellaSlaps Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HellaSlaps Icon.png"; sourceTree = "<group>"; };
+		E52FB1A51C9741C700066D71 /* PostTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostTableCell.xib; sourceTree = "<group>"; };
+		E52FB1A71C97433E00066D71 /* PostTableCellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableCellViewController.swift; sourceTree = "<group>"; };
+		E52FB1A91C974CC200066D71 /* Oswald-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Regular.ttf"; sourceTree = "<group>"; };
+		E52FB1AA1C974CDE00066D71 /* ArcaMajora-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ArcaMajora-Heavy.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +96,12 @@
 				E52FB19F1C90AB2000066D71 /* XMLParser.swift */,
 				E52FB19D1C90A94A00066D71 /* FeedTableViewController.swift */,
 				E52FB1811C90A8DF00066D71 /* Main.storyboard */,
+				E52FB1A51C9741C700066D71 /* PostTableCell.xib */,
+				E52FB1A71C97433E00066D71 /* PostTableCellViewController.swift */,
+				E52FB1A31C973E1E00066D71 /* HellaSlaps Icon.png */,
 				E52FB1841C90A8DF00066D71 /* Assets.xcassets */,
+				E52FB1A91C974CC200066D71 /* Oswald-Regular.ttf */,
+				E52FB1AA1C974CDE00066D71 /* ArcaMajora-Heavy.ttf */,
 				E52FB1861C90A8DF00066D71 /* LaunchScreen.storyboard */,
 				E52FB1891C90A8DF00066D71 /* Info.plist */,
 			);
@@ -185,9 +200,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E52FB1AB1C974D5C00066D71 /* Oswald-Regular.ttf in Resources */,
+				E52FB1AC1C974D5C00066D71 /* ArcaMajora-Heavy.ttf in Resources */,
+				E52FB1A41C973E1E00066D71 /* HellaSlaps Icon.png in Resources */,
 				E52FB1881C90A8DF00066D71 /* LaunchScreen.storyboard in Resources */,
 				E52FB1851C90A8DF00066D71 /* Assets.xcassets in Resources */,
 				E52FB1831C90A8DF00066D71 /* Main.storyboard in Resources */,
+				E52FB1A61C9741C700066D71 /* PostTableCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E52FB1A81C97433E00066D71 /* PostTableCellViewController.swift in Sources */,
 				E52FB1A21C90B6AB00066D71 /* PostViewController.swift in Sources */,
 				E52FB17E1C90A8DF00066D71 /* AppDelegate.swift in Sources */,
 				E52FB19E1C90A94A00066D71 /* FeedTableViewController.swift in Sources */,
